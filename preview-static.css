@@ -1,0 +1,17 @@
+body .xLoader, body .google-spin-wrapper, body .preloader { display: none !important; }
+body .lazyload, body .animate_to_box { visibility: visible !important; opacity: 1 !important; }
+body header.view-hide { visibility: visible !important; opacity: 1 !important; }
+.dubrava-preview-menu {
+  position: sticky; top: 0; z-index: 9999;
+  color: #fff; background: #1e2d1e; padding: 10px 16px;
+}
+.dubrava-preview-menu summary { cursor: pointer; }
+.dubrava-preview-menu ul {
+  display: flex; flex-wrap: wrap; gap: 5px 22px;
+  list-style: none; margin: 8px 0 0; padding: 0;
+  max-height: 45vh; overflow: auto;
+}
+.dubrava-preview-menu a { display: inline-block; padding: 5px 0; color: #fff; }
+@media (max-width: 767px) {
+  .dubrava-preview-menu ul { display: block; padding-left: 12px; }
+}
